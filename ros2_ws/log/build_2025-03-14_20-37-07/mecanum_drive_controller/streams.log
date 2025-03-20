@@ -1,0 +1,110 @@
+[0.021s] Invoking command in '/home/pan/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/mecanum_drive_controller
+[0.093s] -- The C compiler identification is GNU 11.4.0
+[0.160s] -- The CXX compiler identification is GNU 11.4.0
+[0.168s] -- Detecting C compiler ABI info
+[0.254s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.261s] -- Detecting C compile features
+[0.261s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.364s] -- Detecting CXX compile features - done
+[0.366s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.529s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.597s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.630s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.668s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.672s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.680s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.707s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.912s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.914s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.939s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.014s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.018s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.040s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.043s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.052s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.065s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.077s] -- Looking for pthread.h
+[1.163s] -- Looking for pthread.h - found
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.250s] -- Found Threads: TRUE  
+[1.306s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.308s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.332s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.351s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.368s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.373s] -- Found tf2_msgs: 0.25.12 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.473s] -- Configuring done
+[1.533s] -- Generating done
+[1.538s] -- Build files have been written to: /home/pan/ros2_ws/build/mecanum_drive_controller
+[1.553s] Invoked command in '/home/pan/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/mecanum_drive_controller
+[1.554s] Invoking command in '/home/pan/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/mecanum_drive_controller -- -j12 -l12
+[1.606s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pan/ros2_ws/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller_parameter.yaml `[0m
+[3.137s] [ 33%] [34m[1mCreating deprecated header file /home/pan/ros2_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp[0m
+[3.276s] [ 33%] Built target mecanum_drive_controller_parameters
+[3.325s] [ 50%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o[0m
+[3.340s] [ 66%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o[0m
+[3.345s] [ 83%] [32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[6.257s] In file included from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:45[m[K,
+[6.257s]                  from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30[m[K:
+[6.257s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+[6.258s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.258s]       |                                                                                                 [01;36m[K^[m[K
+[6.258s] In file included from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:46[m[K,
+[6.258s]                  from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30[m[K:
+[6.258s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[6.258s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.258s]       |                                                                                                    [01;36m[K^[m[K
+[6.258s] In file included from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:47[m[K,
+[6.258s]                  from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30[m[K:
+[6.258s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[6.258s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.258s]       |                                                                                                       [01;36m[K^[m[K
+[6.270s] In file included from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller.hpp:50[m[K,
+[6.270s]                  from [01m[K/home/pan/ros2_ws/src/husarion_controllers/mecanum_drive_controller/src/mecanum_drive_controller.cpp:30[m[K:
+[6.270s] [01m[K/home/pan/ros2_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp:1:175:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "mecanum_drive_controller_parameters.hpp" is deprecated. Use #include <mecanum_drive_controller/mecanum_drive_controller_parameters.hpp> instead.[m[K’
+[6.270s]     1 | #pragma message("#include \"mecanum_drive_controller_parameters.hpp\" is deprecated. Use #include <mecanum_drive_controller/mecanum_drive_controller_parameters.hpp> instead."[01;36m[K)[m[K
+[6.270s]       |                                                                                                                                                                               [01;36m[K^[m[K
+[38.213s] [100%] [32m[1mLinking CXX shared library libmecanum_drive_controller.so[0m
+[38.576s] [100%] Built target mecanum_drive_controller
+[38.592s] Invoked command in '/home/pan/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/mecanum_drive_controller -- -j12 -l12
+[38.594s] Invoking command in '/home/pan/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/mecanum_drive_controller
+[38.605s] -- Install configuration: "Release"
+[38.606s] -- Execute custom install script
+[38.607s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp
+[38.618s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_plugin.xml
+[38.630s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp
+[38.641s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp
+[38.651s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/speed_limiter.hpp
+[38.662s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h
+[38.674s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh
+[38.684s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv
+[38.695s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller
+[38.708s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller
+[38.718s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh
+[38.729s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv
+[38.741s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh
+[38.751s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv
+[38.761s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash
+[38.772s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh
+[38.782s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh
+[38.792s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv
+[38.806s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv
+[38.816s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller
+[38.826s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller
+[38.835s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.846s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake
+[38.856s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake
+[38.865s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake
+[38.875s] -- Symlinking: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml
+[38.885s] -- Installing: /home/pan/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so
+[38.889s] -- Set runtime path of "/home/pan/ros2_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""
+[38.889s] -- Installing: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake
+[38.889s] -- Installing: /home/pan/ros2_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-release.cmake
+[38.892s] Invoked command in '/home/pan/ros2_ws/build/mecanum_drive_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/mecanum_drive_controller

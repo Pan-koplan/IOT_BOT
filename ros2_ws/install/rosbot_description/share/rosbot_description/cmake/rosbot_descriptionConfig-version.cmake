@@ -1,0 +1,1 @@
+/home/pan/ros2_ws/build/rosbot_description/ament_cmake_core/rosbot_descriptionConfig-version.cmake

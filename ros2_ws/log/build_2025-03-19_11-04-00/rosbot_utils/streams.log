@@ -1,0 +1,26 @@
+[0.953s] Invoking command in '/home/pan/ros2_ws/build/rosbot_utils': PYTHONPATH=/home/pan/ros2_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pan/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pan/ros2_ws/build/rosbot_utils/build --no-deps symlink_data
+[1.214s] running develop
+[1.381s] running egg_info
+[1.381s] creating rosbot_utils.egg-info
+[1.381s] writing rosbot_utils.egg-info/PKG-INFO
+[1.382s] writing dependency_links to rosbot_utils.egg-info/dependency_links.txt
+[1.382s] writing entry points to rosbot_utils.egg-info/entry_points.txt
+[1.382s] writing requirements to rosbot_utils.egg-info/requires.txt
+[1.382s] writing top-level names to rosbot_utils.egg-info/top_level.txt
+[1.382s] writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[1.383s] reading manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[1.384s] writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[1.385s] running build_ext
+[1.386s] Creating /home/pan/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages/rosbot-utils.egg-link (link to .)
+[1.386s] Installing flash_firmware script to /home/pan/ros2_ws/install/rosbot_utils/lib/rosbot_utils
+[1.387s] 
+[1.387s] Installed /home/pan/ros2_ws/build/rosbot_utils
+[1.387s] running symlink_data
+[1.387s] creating /home/pan/ros2_ws/install/rosbot_utils/share/ament_index
+[1.387s] creating /home/pan/ros2_ws/install/rosbot_utils/share/ament_index/resource_index
+[1.387s] creating /home/pan/ros2_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[1.387s] symbolically linking /home/pan/ros2_ws/build/rosbot_utils/resource/rosbot_utils -> /home/pan/ros2_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[1.387s] symbolically linking /home/pan/ros2_ws/build/rosbot_utils/package.xml -> /home/pan/ros2_ws/install/rosbot_utils/share/rosbot_utils
+[1.387s] creating /home/pan/ros2_ws/install/rosbot_utils/share/rosbot_utils/firmware
+[1.388s] symbolically linking /home/pan/ros2_ws/build/rosbot_utils/firmware/firmware-0.11.0.bin -> /home/pan/ros2_ws/install/rosbot_utils/share/rosbot_utils/firmware
+[1.453s] Invoked command in '/home/pan/ros2_ws/build/rosbot_utils' returned '0': PYTHONPATH=/home/pan/ros2_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pan/ros2_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pan/ros2_ws/build/rosbot_utils/build --no-deps symlink_data

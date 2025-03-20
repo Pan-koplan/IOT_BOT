@@ -1,0 +1,124 @@
+[0.025s] Invoking command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/imu_sensor_broadcaster -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/imu_sensor_broadcaster
+[0.108s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.229s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.230s] -- Detecting CXX compile features
+[0.230s] -- Detecting CXX compile features - done
+[0.239s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.401s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.482s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.517s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.576s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.587s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.603s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.621s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.874s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.877s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.906s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.983s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.987s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.007s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.010s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.021s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.036s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.046s] -- Looking for C++ include pthread.h
+[1.194s] -- Looking for C++ include pthread.h - found
+[1.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.337s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.338s] -- Found Threads: TRUE  
+[1.386s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[1.388s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.407s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.432s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.434s] -- Found controller_manager: 2.48.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.462s] -- Found ros2_control_test_assets: 2.48.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.464s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.508s] -- The C compiler identification is GNU 11.4.0
+[1.516s] -- Detecting C compiler ABI info
+[1.640s] -- Detecting C compiler ABI info - done
+[1.647s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.647s] -- Detecting C compile features
+[1.647s] -- Detecting C compile features - done
+[1.652s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.652s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.675s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.675s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.676s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.755s] -- Configuring done
+[1.850s] -- Generating done
+[1.864s] -- Build files have been written to: /home/pan/ros2_ws/build/imu_sensor_broadcaster
+[1.880s] Invoked command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/imu_sensor_broadcaster -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/imu_sensor_broadcaster
+[1.882s] Invoking command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[1.940s] [  9%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/pan/ros2_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp /home/pan/ros2_ws/src/imu_sensor_broadcaster/src/imu_sensor_broadcaster_parameters.yaml `[0m
+[1.940s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.941s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.340s] [ 36%] [34m[1mCreating deprecated header file /home/pan/ros2_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp[0m
+[2.417s] [ 36%] Built target imu_sensor_broadcaster_parameters
+[2.459s] [ 45%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[5.911s] In file included from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:28[m[K,
+[5.912s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19[m[K:
+[5.912s] [01m[K/home/pan/ros2_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp:1:169:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "imu_sensor_broadcaster_parameters.hpp" is deprecated. Use #include <imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp> instead.[m[K’
+[5.912s]     1 | #pragma message("#include \"imu_sensor_broadcaster_parameters.hpp\" is deprecated. Use #include <imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp> instead."[01;36m[K)[m[K
+[5.912s]       |                                                                                                                                                                         [01;36m[K^[m[K
+[6.012s] In file included from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:31[m[K,
+[6.012s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/src/imu_sensor_broadcaster.cpp:19[m[K:
+[6.012s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[6.012s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[6.012s]       |                                                                                                       [01;36m[K^[m[K
+[9.834s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[9.890s] [ 54%] Built target gmock
+[10.425s] [ 63%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[10.616s] [ 63%] Built target imu_sensor_broadcaster
+[10.640s] [ 81%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[10.640s] [ 81%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[13.772s] In file included from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:28[m[K,
+[13.773s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.hpp:27[m[K,
+[13.773s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.cpp:19[m[K:
+[13.773s] [01m[K/home/pan/ros2_ws/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster_parameters.hpp:1:169:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: #include "imu_sensor_broadcaster_parameters.hpp" is deprecated. Use #include <imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp> instead.[m[K’
+[13.773s]     1 | #pragma message("#include \"imu_sensor_broadcaster_parameters.hpp\" is deprecated. Use #include <imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp> instead."[01;36m[K)[m[K
+[13.773s]       |                                                                                                                                                                         [01;36m[K^[m[K
+[13.976s] In file included from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp:31[m[K,
+[13.976s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.hpp:27[m[K,
+[13.976s]                  from [01m[K/home/pan/ros2_ws/src/imu_sensor_broadcaster/test/test_imu_sensor_broadcaster.cpp:19[m[K:
+[13.976s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[13.976s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[13.976s]       |                                                                                                       [01;36m[K^[m[K
+[18.516s] [ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[19.905s] [ 90%] Built target test_load_imu_sensor_broadcaster
+[37.511s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[37.962s] [100%] Built target test_imu_sensor_broadcaster
+[37.978s] Invoked command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[37.981s] Invoking command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/imu_sensor_broadcaster
+[37.991s] -- Install configuration: "Release"
+[37.992s] -- Execute custom install script
+[37.993s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp
+[38.005s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster//imu_sensor_broadcaster.xml
+[38.021s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[38.032s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/visibility_control.h
+[38.043s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[38.055s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[38.066s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[38.078s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[38.090s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[38.102s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[38.119s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[38.131s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[38.142s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[38.154s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[38.165s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[38.176s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[38.190s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[38.202s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[38.216s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[38.228s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.239s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[38.251s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[38.265s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[38.277s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[38.289s] -- Installing: /home/pan/ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[38.290s] -- Set runtime path of "/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[38.291s] -- Installing: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[38.291s] -- Installing: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-release.cmake
+[38.294s] Invoked command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/imu_sensor_broadcaster

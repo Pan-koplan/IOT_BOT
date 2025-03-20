@@ -1,0 +1,1 @@
+/home/pan/ros2_ws/src/rosbot_ros/rosbot_gazebo/launch/simulation.launch.py

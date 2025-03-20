@@ -1,0 +1,15 @@
+/home/pan/ros2_ws/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot
+/home/pan/ros2_ws/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot
+/home/pan/ros2_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.sh
+/home/pan/ros2_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv
+/home/pan/ros2_ws/install/rosbot/share/rosbot/environment/path.sh
+/home/pan/ros2_ws/install/rosbot/share/rosbot/environment/path.dsv
+/home/pan/ros2_ws/install/rosbot/share/rosbot/local_setup.bash
+/home/pan/ros2_ws/install/rosbot/share/rosbot/local_setup.sh
+/home/pan/ros2_ws/install/rosbot/share/rosbot/local_setup.zsh
+/home/pan/ros2_ws/install/rosbot/share/rosbot/local_setup.dsv
+/home/pan/ros2_ws/install/rosbot/share/rosbot/package.dsv
+/home/pan/ros2_ws/install/rosbot/share/ament_index/resource_index/packages/rosbot
+/home/pan/ros2_ws/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake
+/home/pan/ros2_ws/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake
+/home/pan/ros2_ws/install/rosbot/share/rosbot/package.xml

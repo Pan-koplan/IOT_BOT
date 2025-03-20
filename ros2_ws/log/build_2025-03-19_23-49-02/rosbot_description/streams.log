@@ -1,0 +1,33 @@
+[0.035s] Invoking command in '/home/pan/ros2_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_description -- -j12 -l12
+[0.372s] Invoked command in '/home/pan/ros2_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_description -- -j12 -l12
+[0.382s] Invoking command in '/home/pan/ros2_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_description
+[0.393s] -- Install configuration: "Release"
+[0.394s] -- Execute custom install script
+[0.394s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/body.stl
+[0.394s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/cover.stl
+[0.396s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/mecanum_a.dae
+[0.396s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/mecanum_b.dae
+[0.396s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/wheel_a.dae
+[0.397s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/meshes/wheel_b.dae
+[0.397s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/urdf/body.urdf.xacro
+[0.397s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/urdf/components/vl53lox.urdf.xacro
+[0.397s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro
+[0.397s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot_macro.urdf.xacro
+[0.398s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/urdf/wheel.urdf.xacro
+[0.398s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/environment/setup_envs.sh
+[0.398s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+[0.399s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+[0.399s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+[0.399s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+[0.400s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/environment/path.sh
+[0.400s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/environment/path.dsv
+[0.401s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.bash
+[0.401s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.sh
+[0.401s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.zsh
+[0.401s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/local_setup.dsv
+[0.402s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/package.dsv
+[0.420s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+[0.422s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+[0.422s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+[0.422s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_description/share/rosbot_description/package.xml
+[0.435s] Invoked command in '/home/pan/ros2_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_description

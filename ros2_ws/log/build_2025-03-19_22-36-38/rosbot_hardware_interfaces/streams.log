@@ -1,0 +1,36 @@
+[0.021s] Invoking command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_hardware_interfaces -- -j12 -l12
+[0.084s] [100%] Built target rosbot_hardware_interfaces
+[0.110s] Invoked command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_hardware_interfaces -- -j12 -l12
+[0.111s] Invoking command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_hardware_interfaces
+[0.119s] -- Install configuration: "Release"
+[0.119s] -- Execute custom install script
+[0.119s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces//rosbot_hardware_interfaces.xml
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/visibility_control.hpp
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch/example_diff_drive.launch.py
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config/example_diff_drive_controller.yaml
+[0.120s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf/ros2_control.urdf.xacro
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.sh
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.dsv
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_hardware_interfaces
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.sh
+[0.121s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.dsv
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.sh
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.dsv
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.bash
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.sh
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.zsh
+[0.122s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.dsv
+[0.122s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv
+[0.132s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/packages/rosbot_hardware_interfaces
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosbot_hardware_interfaces
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig.cmake
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig-version.cmake
+[0.133s] -- Up-to-date symlink: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.xml
+[0.136s] Invoked command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_hardware_interfaces

@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating rosbot_gazebo.egg-info
+writing rosbot_gazebo.egg-info/PKG-INFO
+writing dependency_links to rosbot_gazebo.egg-info/dependency_links.txt
+writing entry points to rosbot_gazebo.egg-info/entry_points.txt
+writing requirements to rosbot_gazebo.egg-info/requires.txt
+writing top-level names to rosbot_gazebo.egg-info/top_level.txt
+writing manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
+reading manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pan/ros2_ws/install/rosbot_gazebo/lib/python3.10/site-packages/rosbot-gazebo.egg-link (link to .)
+
+Installed /home/pan/ros2_ws/build/rosbot_gazebo
+running symlink_data
+creating /home/pan/ros2_ws/install/rosbot_gazebo/share/ament_index
+creating /home/pan/ros2_ws/install/rosbot_gazebo/share/ament_index/resource_index
+creating /home/pan/ros2_ws/install/rosbot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/pan/ros2_ws/build/rosbot_gazebo/resource/rosbot_gazebo -> /home/pan/ros2_ws/install/rosbot_gazebo/share/ament_index/resource_index/packages
+symbolically linking /home/pan/ros2_ws/build/rosbot_gazebo/package.xml -> /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo
+creating /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo/launch
+symbolically linking /home/pan/ros2_ws/build/rosbot_gazebo/launch/simulation.launch.py -> /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo/launch
+symbolically linking /home/pan/ros2_ws/build/rosbot_gazebo/launch/spawn.launch.py -> /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo/launch
+creating /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo/config
+symbolically linking /home/pan/ros2_ws/build/rosbot_gazebo/config/gz_remappings.yaml -> /home/pan/ros2_ws/install/rosbot_gazebo/share/rosbot_gazebo/config

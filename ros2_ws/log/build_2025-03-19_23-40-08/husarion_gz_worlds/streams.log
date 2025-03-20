@@ -1,0 +1,104 @@
+[0.039s] Invoking command in '/home/pan/ros2_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/husarion_gz_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/husarion_gz_worlds
+[0.057s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.247s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.355s] -- Configuring done
+[0.362s] -- Generating done
+[0.364s] -- Build files have been written to: /home/pan/ros2_ws/build/husarion_gz_worlds
+[0.437s] Invoked command in '/home/pan/ros2_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pan/ros2_ws/src/husarion_gz_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/husarion_gz_worlds
+[0.440s] Invoking command in '/home/pan/ros2_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/husarion_gz_worlds -- -j12 -l12
+[0.497s] Invoked command in '/home/pan/ros2_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/husarion_gz_worlds -- -j12 -l12
+[0.511s] Invoking command in '/home/pan/ros2_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/husarion_gz_worlds
+[0.520s] -- Install configuration: "Release"
+[0.521s] -- Execute custom install script
+[0.522s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/config/teleop.config
+[0.522s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/launch/gz_sim.launch.py
+[0.526s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes/conference_table.stl
+[0.526s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.config
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.sdf
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes/door.stl
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.config
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.sdf
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes/husarion_logo.dae
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes/kitchen.stl
+[0.527s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.config
+[0.528s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.sdf
+[0.528s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes/laptop.stl
+[0.528s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.config
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.sdf
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/astra.dae
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/box.dae
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/rplidar.dae
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/upper.dae
+[0.529s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/wheel.dae
+[0.530s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.config
+[0.530s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.sdf
+[0.531s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/black_concrete.png
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.mtl
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.obj
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.mtl
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.obj
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.mtl
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.obj
+[0.532s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.mtl
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.obj
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.mtl
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.obj
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.mtl
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.obj
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.mtl
+[0.533s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.obj
+[0.534s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.mtl
+[0.534s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.obj
+[0.534s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.mtl
+[0.535s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.obj
+[0.535s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.mtl
+[0.535s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.obj
+[0.535s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.mtl
+[0.535s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.obj
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.mtl
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.obj
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.mtl
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.obj
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.mtl
+[0.536s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.obj
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/model.material
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.mtl
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.obj
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.mtl
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.obj
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_carpet.png
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_tiles.png
+[0.537s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_wall.png
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood1.png
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood2.png
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.config
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.sdf
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes/tv.stl
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.config
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.sdf
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes/water_dispenser.dae
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.config
+[0.538s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.sdf
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/empty_with_plugins.sdf
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_office.sdf
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_world.sdf
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/sonoma_raceway.sdf
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.pgm
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.yaml
+[0.539s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/husarion_gz_worlds.sh
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/ament_index/resource_index/package_run_dependencies/husarion_gz_worlds
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/ament_index/resource_index/parent_prefix_path/husarion_gz_worlds
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.sh
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.dsv
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.sh
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.dsv
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.bash
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.sh
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.zsh
+[0.540s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.dsv
+[0.541s] -- Symlinking: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv
+[0.555s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/ament_index/resource_index/packages/husarion_gz_worlds
+[0.555s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig.cmake
+[0.555s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig-version.cmake
+[0.555s] -- Up-to-date symlink: /home/pan/ros2_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.xml
+[0.593s] Invoked command in '/home/pan/ros2_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/husarion_gz_worlds

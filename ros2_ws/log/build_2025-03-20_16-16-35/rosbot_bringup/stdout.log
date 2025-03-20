@@ -1,0 +1,24 @@
+running develop
+Removing /home/pan/ros2_ws/install/rosbot_bringup/lib/python3.10/site-packages/rosbot-bringup.egg-link (link to .)
+running egg_info
+writing ../../../build/rosbot_bringup/rosbot_bringup.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rosbot_bringup/rosbot_bringup.egg-info/dependency_links.txt
+writing entry points to ../../../build/rosbot_bringup/rosbot_bringup.egg-info/entry_points.txt
+writing requirements to ../../../build/rosbot_bringup/rosbot_bringup.egg-info/requires.txt
+writing top-level names to ../../../build/rosbot_bringup/rosbot_bringup.egg-info/top_level.txt
+reading manifest file '../../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rosbot_bringup/rosbot_bringup.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+copying resource/rosbot_bringup -> /home/pan/ros2_ws/install/rosbot_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup
+copying launch/bringup.launch.py -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+copying launch/microros.launch.py -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+copying config/ekf.yaml -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/config
+copying config/laser_filter.yaml -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/config
+copying config/microros_localhost_only.xml -> /home/pan/ros2_ws/install/rosbot_bringup/share/rosbot_bringup/config
+running install_egg_info
+Copying ../../../build/rosbot_bringup/rosbot_bringup.egg-info to /home/pan/ros2_ws/install/rosbot_bringup/lib/python3.10/site-packages/rosbot_bringup-0.8.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/pan/ros2_ws/build/rosbot_bringup/install.log'

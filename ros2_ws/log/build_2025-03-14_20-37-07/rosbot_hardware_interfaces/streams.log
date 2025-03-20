@@ -1,0 +1,110 @@
+[0.013s] Invoking command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pan/ros2_ws/src/rosbot_hardware_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/rosbot_hardware_interfaces
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.197s] -- The CXX compiler identification is GNU 11.4.0
+[0.205s] -- Detecting C compiler ABI info
+[0.301s] -- Detecting C compiler ABI info - done
+[0.313s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.313s] -- Detecting C compile features
+[0.313s] -- Detecting C compile features - done
+[0.317s] -- Detecting CXX compiler ABI info
+[0.417s] -- Detecting CXX compiler ABI info - done
+[0.429s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.429s] -- Detecting CXX compile features
+[0.429s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.581s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.639s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.666s] -- Found controller_interface: 2.48.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.708s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.713s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.720s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.731s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.933s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.935s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.957s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.036s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.038s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.055s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.057s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.068s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.079s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.087s] -- Looking for pthread.h
+[1.164s] -- Looking for pthread.h - found
+[1.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.247s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.248s] -- Found Threads: TRUE  
+[1.293s] -- Found realtime_tools: 2.11.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[1.376s] -- Configuring done
+[1.403s] -- Generating done
+[1.407s] -- Build files have been written to: /home/pan/ros2_ws/build/rosbot_hardware_interfaces
+[1.419s] Invoked command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/pan/ros2_ws/src/rosbot_hardware_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pan/ros2_ws/install/rosbot_hardware_interfaces
+[1.421s] Invoking command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_hardware_interfaces -- -j12 -l12
+[1.478s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_system.cpp.o[0m
+[1.478s] [ 66%] [32mBuilding CXX object CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_imu_sensor.cpp.o[0m
+[3.705s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp:14[m[K,
+[3.705s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_system.cpp:1[m[K:
+[3.705s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+[3.705s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.706s]       |                                                                                                 [01;36m[K^[m[K
+[3.706s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp:15[m[K,
+[3.706s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_system.cpp:1[m[K:
+[3.706s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[3.706s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.706s]       |                                                                                                    [01;36m[K^[m[K
+[3.706s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp:16[m[K,
+[3.706s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_system.cpp:1[m[K:
+[3.706s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[3.706s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.706s]       |                                                                                                       [01;36m[K^[m[K
+[3.733s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp:14[m[K,
+[3.733s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_imu_sensor.cpp:1[m[K:
+[3.733s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_box.h:22:97:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_box.hpp' header.[m[K’
+[3.733s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_box.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.734s]       |                                                                                                 [01;36m[K^[m[K
+[3.734s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp:15[m[K,
+[3.734s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_imu_sensor.cpp:1[m[K:
+[3.734s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_buffer.h:22:100:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header.[m[K’
+[3.734s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_buffer.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.734s]       |                                                                                                    [01;36m[K^[m[K
+[3.734s] In file included from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp:16[m[K,
+[3.734s]                  from [01m[K/home/pan/ros2_ws/src/rosbot_hardware_interfaces/src/rosbot_imu_sensor.cpp:1[m[K:
+[3.734s] [01m[K/opt/ros/humble/include/realtime_tools/realtime_tools/realtime_publisher.h:22:103:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header.[m[K’
+[3.734s]    22 |   "This header include is deprecated. Please update your code to use 'realtime_publisher.hpp' header."[01;36m[K)[m[K  //NOLINT
+[3.734s]       |                                                                                                       [01;36m[K^[m[K
+[13.127s] [100%] [32m[1mLinking CXX shared library librosbot_hardware_interfaces.so[0m
+[13.364s] [100%] Built target rosbot_hardware_interfaces
+[13.377s] Invoked command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/pan/ros2_ws/build/rosbot_hardware_interfaces -- -j12 -l12
+[13.379s] Invoking command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_hardware_interfaces
+[13.387s] -- Install configuration: "Release"
+[13.387s] -- Execute custom install script
+[13.387s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces//rosbot_hardware_interfaces.xml
+[13.397s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_imu_sensor.hpp
+[13.407s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/rosbot_system.hpp
+[13.417s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/include/rosbot_hardware_interfaces/visibility_control.hpp
+[13.427s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/launch/example_diff_drive.launch.py
+[13.438s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/config/example_diff_drive_controller.yaml
+[13.448s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/urdf/ros2_control.urdf.xacro
+[13.459s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/lib/librosbot_hardware_interfaces.so
+[13.468s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.sh
+[13.478s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/library_path.dsv
+[13.488s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/rosbot_hardware_interfaces
+[13.498s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/rosbot_hardware_interfaces
+[13.508s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.sh
+[13.518s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/ament_prefix_path.dsv
+[13.528s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.sh
+[13.539s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/environment/path.dsv
+[13.550s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.bash
+[13.559s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.sh
+[13.569s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.zsh
+[13.579s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/local_setup.dsv
+[13.590s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv
+[13.600s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/packages/rosbot_hardware_interfaces
+[13.610s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/rosbot_hardware_interfaces
+[13.621s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.632s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.642s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.653s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig.cmake
+[13.662s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/cmake/rosbot_hardware_interfacesConfig-version.cmake
+[13.672s] -- Symlinking: /home/pan/ros2_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.xml
+[13.684s] Invoked command in '/home/pan/ros2_ws/build/rosbot_hardware_interfaces' returned '0': AMENT_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster:/opt/ros/humble LD_LIBRARY_PATH=/home/pan/ros2_ws/install/imu_sensor_broadcaster/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/pan/ros2_ws/build/rosbot_hardware_interfaces

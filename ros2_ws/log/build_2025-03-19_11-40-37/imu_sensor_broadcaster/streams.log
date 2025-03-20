@@ -1,0 +1,38 @@
+[0.044s] Invoking command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pan/ros2_ws/install/rosbot_utils:/home/pan/ros2_ws/install/rosbot_gazebo:/home/pan/ros2_ws/install/rosbot_bringup:/home/pan/ros2_ws/install/rosbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[0.116s] [ 18%] Built target imu_sensor_broadcaster_parameters
+[0.121s] [ 45%] Built target gmock
+[0.157s] [ 63%] Built target imu_sensor_broadcaster
+[0.191s] [ 81%] Built target test_imu_sensor_broadcaster
+[0.191s] [100%] Built target test_load_imu_sensor_broadcaster
+[0.385s] Invoked command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pan/ros2_ws/install/rosbot_utils:/home/pan/ros2_ws/install/rosbot_gazebo:/home/pan/ros2_ws/install/rosbot_bringup:/home/pan/ros2_ws/install/rosbot_controller:/opt/ros/humble /usr/bin/cmake --build /home/pan/ros2_ws/build/imu_sensor_broadcaster -- -j12 -l12
+[0.387s] Invoking command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pan/ros2_ws/install/rosbot_utils:/home/pan/ros2_ws/install/rosbot_gazebo:/home/pan/ros2_ws/install/rosbot_bringup:/home/pan/ros2_ws/install/rosbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/imu_sensor_broadcaster
+[0.411s] -- Install configuration: "Release"
+[0.413s] -- Execute custom install script
+[0.414s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp
+[0.414s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster//imu_sensor_broadcaster.xml
+[0.414s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[0.414s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster/visibility_control.h
+[0.414s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[0.416s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[0.416s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[0.416s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[0.418s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[0.419s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[0.420s] -- Symlinking: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[0.426s] -- Up-to-date symlink: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[0.426s] -- Up-to-date: /home/pan/ros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[0.426s] -- Up-to-date: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport.cmake
+[0.427s] -- Up-to-date: /home/pan/ros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/export_imu_sensor_broadcasterExport-release.cmake
+[0.474s] Invoked command in '/home/pan/ros2_ws/build/imu_sensor_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pan/ros2_ws/install/rosbot_utils:/home/pan/ros2_ws/install/rosbot_gazebo:/home/pan/ros2_ws/install/rosbot_bringup:/home/pan/ros2_ws/install/rosbot_controller:/opt/ros/humble /usr/bin/cmake --install /home/pan/ros2_ws/build/imu_sensor_broadcaster
