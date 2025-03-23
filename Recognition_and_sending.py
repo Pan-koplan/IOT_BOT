@@ -1,6 +1,3 @@
-# Установка библиотеки speech_recognition
-!pip install SpeechRecognition
-
 # Импорт необходимых библиотек
 import speech_recognition as sr
 import requests
@@ -45,6 +42,7 @@ try:
     response = send_post_request(url, json_data=data, headers=headers)
     if response:
         print("Ответ сервера:", response)
+
 
 except sr.UnknownValueError:
     print("Не понял")

@@ -1,0 +1,217 @@
+/* articles_gate_page */
+.main-content {
+    width: 100%;
+    display: grid;
+    grid-column: 2/12;
+    align-items: start;
+    padding-bottom: 60px;
+}
+.aritcle-content {
+    width: 100%;
+    display: grid;
+    grid-column: 2/12;
+    align-items: start;
+}
+.main-content-line,
+.main-content-line * {
+    box-sizing: border-box;
+}
+.main-content-line {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+}
+.main-content-item-big {
+    grid-column: span 2;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+}
+.item-content-big {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+
+.title_big {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+.main-content-item-big:hover {
+    transform: scale(1.005);
+    transition: 10;
+}
+.main-content-item:hover .main-content-item-content .title {
+    color: var(--primary);
+}
+/* regular item of line */
+
+.main-content-item {
+    background: #ffffff;
+    border-style: solid;
+    border-color: #e7e7e7;
+    border-width: 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+}
+.main-content-item-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.item-content-photo {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    object-fit: cover;
+}
+.title {
+    color: #000000;
+    text-align: left;
+    font-family: "Commissioner-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    align-self: stretch;
+}
+
+.item-metadata {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 276.45px;
+    position: relative;
+    color: var(--gray_element);
+}
+.heart {
+    flex-shrink: 0;
+    width: 20px;
+    height: 18px;
+    position: relative;
+    overflow: visible;
+}
+.search {
+    flex-shrink: 0;
+    width: 19px;
+    height: 17.26px;
+    position: relative;
+    overflow: visible;
+}
+.tag {
+    color: #9f9f9f;
+    text-align: left;
+    font-family: "Poppins-Regular", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    width: 180px;
+    height: 21.91px;
+}
+
+/* hor itemline */
+.main-content-column-hor,
+.main-content-column-hor * {
+    box-sizing: border-box;
+}
+.main-content-column-hor {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+.item-content-hor {
+    border-style: solid;
+    background: white;
+    border-color: var(--border_gray);
+    border-width: 1px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+.item-photo-hor {
+    flex-shrink: 0;
+    width: 280px;
+    height: 157px;
+    position: relative;
+    object-fit: cover;
+}
+.item-data-hor {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+    justify-content: center;
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+}
+.article-content {
+    grid-column: 2/12;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+@media screen and (max-width: 480px) {
+    .main-content-line {
+        grid-template-columns: 1fr;
+    }
+    .main-content-item-big {
+        grid-column: span 1;
+        width: 100%;
+        height: 240px;
+    }
+    .article-content {
+        grid-column: 1/13;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+    .item-photo-hor {
+        flex-shrink: 0;
+        width: 50px;
+        height: 157px;
+        position: relative;
+        object-fit: cover;
+    }
+}

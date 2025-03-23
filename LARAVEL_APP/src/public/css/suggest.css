@@ -1,0 +1,188 @@
+/* suggest topics */
+.suggest_product {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+.suggest_artic {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.line-suggest-topics {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+.topic {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-block: 30px;
+    border-radius: 15px;
+    height: fit-content;
+}
+.topic p {
+    margin-bottom: 0px;
+}
+.topic:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.topic:hover img {
+    filter: brightness(90%);
+}
+.topic:hover p {
+    /* text-decoration: underline; */
+    color: var(--primary);
+}
+.topic .title_center {
+    margin-top: 0px;
+}
+.mask-group {
+    align-self: stretch;
+    flex: 1;
+    height: 228px;
+    position: relative;
+    overflow: visible;
+}
+@media screen and (max-width: 480px) {
+    .line-suggest-topics {
+        grid-template-columns: repeat(3, minmax(50px, 1fr));
+    }
+    .topic {
+        padding-block: 0px;
+    }
+    .topic img {
+        max-height: 110px !important;
+        height: 103px;
+    }
+    .topic p {
+        font-size: 16px;
+    }
+    .mask-group {
+        align-self: stretch;
+        flex: 1;
+        position: relative;
+        overflow: visible;
+    }
+    .suggest_product {
+        padding-block: 10px;
+    }
+    .sugest_artic {
+        width: 100%;
+        padding-block: 30px;
+        /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 60px; */
+    }
+}
+
+/* product_card */
+.featured-products,
+.featured-products * {
+    box-sizing: border-box;
+}
+.featured-products {
+    display: block;
+    width: auto;
+    height: auto;
+    position: relative;
+    transition: 0.01s;
+}
+.featured-products:hover p {
+    color: var(--primary);
+}
+.featured-products:hover .favorite {
+    color: var(--primary);
+    display: block;
+}
+
+.featured-products:hover img {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+    border: none;
+}
+.price {
+    color: var(--color-gray-1, #3a3a3a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+    position: relative;
+}
+/* .product-name {
+  width: ;
+  position: static;
+} */
+.product-name2 {
+    color: var(--color-gray-1, #3a3a3a);
+    text-align: left;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.sort-description {
+    color: var(--color-gray-3, #898989);
+    text-align: left;
+    font-family: "Poppins-Medium", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.product_image {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.product_line {
+    display: grid; /* Включаем flex-контейнер */
+    grid-template-columns: repeat(
+        5,
+        minmax(250px, 350px)
+    ); /* Выравнивание элементов по горизонтали */
+    gap: 50px;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .product_image {
+        width: 100%;
+        height: fit-content !important;
+        border-radius: 10px;
+        object-fit: fill;
+    }
+    .featured-products {
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .product-name2 {
+        font-size: 16px;
+        width: 100%;
+    }
+    .sort-description {
+        font-size: 12px;
+        width: 100%;
+    }
+    .product_line {
+        grid-template-columns: repeat(
+            2,
+            minmax(100px, 1fr)
+        ); /* Выравнивание элементов по горизонтали */
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+}
